@@ -1,0 +1,17 @@
+body {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-image: url('../images/pattern_bg1.png');
+    background-repeat: repeat;
+    background-color:slategrey ; 
+    margin-bottom: 65px;
+    padding: 2em;
+}
+.jumbotron-detail-online-store {
+    background: url('../images/products/ecom2.png') repeat fixed;
+}
+
+.jumbotron {
+    height: 40vh;
+    background-size: cover;
+}

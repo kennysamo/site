@@ -1,0 +1,85 @@
+    {% extends 'base.html' %} 
+    {% block title %}Home{% endblock %}
+    {% block content %}
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-dark fixed-top bg-dark">
+            <div class="container">
+                <a href="index.html" class="navbar-brand">
+                    
+                    Mizuka Software
+                </a>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="nav navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                
+                </ul>
+
+            </div>
+            </div>
+
+        </nav>
+    </header>
+    <main role="main" id="main" style="color: snow;">
+        <div class="container">
+            <div class="row">
+               <div class="col-md-2">
+                    <img src="images/fav.png" class="img-fluid" alt="" style="float: left;">
+               </div>
+               <div class="col md-10">
+                   <h1 class="display-4" style="color: #3EC1E8;">Mizuka Software</h1>
+                   <h2><em>Simply the Best!</em></h2>
+                   <hr style="border: 1px solid #3EC1E8;">
+                </div>
+            </div>
+            <div class="row">
+                <div>
+                    <aside>
+                        <h5>Browse Our Services</h5>
+                        <div style="background-color: white;">
+                            <ul>
+                                <li><a href="#">We make great websites</a></li>
+                                <li><a href="#">Let us auomate you business</a></li>
+                                <li><a href="#">IoT & Sensors</a></li>
+                                <li><a href="#">Case Studies</a></li>
+                                <li><a href="#">My blog</a></li>
+                                <li><a href="#promos">Promotions</a></li>
+                            </ul>
+                        </div>
+                        <input type="search" class="searchbox" placeholder="Search our site">
+                        <a href="#" type="submit" class="btn btn-primary" >Search</a>
+                    </aside>
+                </div>
+                <div class="col md-10">
+                    <main role="main">
+                        <article class="text-justify p-6 my-4">
+                            <img src="images/main2.png" alt="" style="float: left;" class="img-fluid">
+                            <h3>About Us</h3>
+                            <p>For many years, <strong>Mizuka Software</strong> has delivered secure, reliable and high quality software solutions that meet the growing demands of our clients.</p>
+                            <p>At <strong>Mizuka Software,</strong> we solve real industry problems using the lastest technologies in data science.</p>
+                            <p>We'll help your business manage cost and reduce waste along your value chain.<br><br> You'll get access to real-time business intelligence and analytics response from your teams or electronic sensors.</p>
+                            <p>We'll deliver value within budget, time and good quality. This way, we can make sure that our software solution is absolutely the best.<a type="button" href="hire_us.html" id="hire" class="btn btn-primary m-4">Hire Us Today</a></p>
+                            <hr style="border: 1px solid #3EC1E8;">
+                            
+                    </article>
+                    </main>
+                </div>
+                
+            </div>
+            
+            <nav class="navbar navbar-expand-sm navbar-dark fixed-bottom bg-dark">
+                <div class="col md-4">
+                    <p><small><img src="images/fav.png" alt="" width="30"> A product of Mizuka Limited - All rights reserved. &copy; 2020 </small>
+                    <br><small>Kensington Court, Argwings Kodhek Road,<br> Kilimani, Nairobi - Kenya.</small></p>
+                </div>
+                <div class="col md-4">
+                    <p>Contact us via <a href="mailto:support@mizuka.co.ke">email</a> </p>
+                </div>
+                <div class="col md-4">
+                    <a href="https://twitter.com/mizuka_ke" target="_blank">Follow us on Twitter</a>
+                </div>
+            </div>
+        </main>
+     </div>
+    {% endblock %}
