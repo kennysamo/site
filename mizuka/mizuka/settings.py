@@ -25,7 +25,7 @@ SECRET_KEY = '00iqlp$!i9#^v_q2r72%7=)g^4x$d52q_@%b9zgv+#6f&)&sgv'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['mizuka.io','149.202.2.81','127.0.0.1','localhost','.localhost']
+ALLOWED_HOSTS = ['mizuka.io','149.202.2.81','127.0.0.1','localhost','.localhost', '.mizuka.io','www.mizuka.ioi']
 
 
 # Application definition
